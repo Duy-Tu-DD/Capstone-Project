@@ -23,9 +23,7 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
     │   │   └── ...                       # Các file hỗ trợ
     │   ├── Project_Robot.sln        
     │   └── README.md       
-    └── README.md   
-![image](https://github.com/user-attachments/assets/db05f1a2-bacd-4857-b2ff-7f7e10cfddbd)
-                        
+    └── README.md                         
 ---
 
 ## 🧠 Tính năng chính
