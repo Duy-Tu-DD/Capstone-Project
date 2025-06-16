@@ -9,8 +9,7 @@
     - Giám sát trạng thái robot thời gian thực
 
 ## 🧠 Tính năng chính
-
-    ### Điều khiển EGM
+  ### 1. Điều khiển EGM
     - Kết nối với robot qua UDP
     - Điều chỉnh vị trí (X, Y, Z) và góc quay (RX, RY, RZ)
     - Hiển thị phản hồi từ robot
