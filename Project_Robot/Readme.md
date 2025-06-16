@@ -119,6 +119,6 @@
                             Đảm bảo không có ứng dụng nào khác đang sử dụng camera
 
 # Tác giả
-Đỗ Đăng Duy Tú - 105200391 - 20TDHCLC1 
-Quách Thiện Đức - 105200358 - 20TDHCLC1
-Nguyễn Hữu Nam Thành - 105200386 - 20TDHCLC1
+    Đỗ Đăng Duy Tú - 105200391 - 20TDHCLC1 
+    Quách Thiện Đức - 105200358 - 20TDHCLC1
+    Nguyễn Hữu Nam Thành - 105200386 - 20TDHCLC1
