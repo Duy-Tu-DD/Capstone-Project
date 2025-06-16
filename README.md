@@ -50,10 +50,11 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
   ###  4. Giao diện người dùng (UI)
 
   - Xây dựng với **PyQt5**  
-  - Giao diện chia thành 3 panel:
+  - Giao diện chia thành 4 panel:
     - **EGM Control**
     - **Camera Control**
-    - **RWS Control**  
+    - **RWS Control**
+    - **System Log**
   - Hỗ trợ nút giữ để điều chỉnh liên tục  
   - Hệ thống ghi nhật ký hoạt động  
 ---
