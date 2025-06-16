@@ -44,7 +44,7 @@
 ## 🔧 Cài đặt
 ### 1. Clone repository hoặc tải mã nguồn:
     git clone git clone https://github.com/Duy-Tu-DD/Capstone-Project.git
-    cd Capstone-Project/Project_Robot
+    cd Capstone-Project/Project_Robot/PythonApplication1
 
 ### 2. Cài đặt các thư viện cần thiết:
     pip install PyQt5 opencv-python mediapipe protobuf requests numpy pyqtgraph ws4py
