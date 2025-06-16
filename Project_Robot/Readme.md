@@ -37,7 +37,7 @@
 - Hiển thị thông tin controller
 
 ## 💻 Yêu cầu hệ thống
-- Python 3.7+
+- Python 3.10+
 - Hệ điều hành: Windows
 - Camera (để sử dụng tính năng điều khiển bằng tay)
 
@@ -106,7 +106,7 @@
 - Đủ ánh sáng để camera nhận diện tay
 
 ## 🛠️ Xử lý sự cố
-- Lỗi kết nối EGM:  Kiểm tra địa chỉ IP và port
+- Lỗi kết nối EGM:  Kiểm tra địa chỉ IP (127.0.0.1 nếu sử dụng bộ điều khiển ảo) và port. 
                     Đảm bảo robot đang ở chế độ EGM
                     Kiểm tra kết nối mạng
 
