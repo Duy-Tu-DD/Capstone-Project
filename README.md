@@ -102,7 +102,7 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
 
 ---
 
-## Tác giả
+# Tác giả
     Đỗ Đăng Duy Tú - 105200391 - 20TDHCLC1 
     Quách Thiện Đức - 105200358 - 20TDHCLC1
     Nguyễn Hữu Nam Thành - 105200386 - 20TDHCLC1
