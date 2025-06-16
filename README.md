@@ -11,20 +11,8 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
 ---
 ## 📁 Cấu trúc repository
 
-Capstone-Project/
-├── EGM_RobotStudio/                  
-│   ├── Controller Data/CRB15000_5_95
-│   ├── Station
-│   ├── EGM.rsproj                    # Dự án chính
-│   └── README.md 
-├── Project_Robot/                    
-│   ├── PythonApplication1/
-│   │   ├── egm_pb2.py                # Protobuf definitions
-│   │   ├── Project_Robot.py          # Ứng dụng chính
-│   │   └── ...                       # Các file hỗ trợ
-│   ├── Project_Robot.sln        
-│   └── README.md       
-└── README.md                         
+![image](https://github.com/user-attachments/assets/db05f1a2-bacd-4857-b2ff-7f7e10cfddbd)
+                        
 ---
 
 ## 🧠 Tính năng chính
