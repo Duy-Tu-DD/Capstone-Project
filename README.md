@@ -74,7 +74,7 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
 
     ```bash
     git clone https://github.com/Duy-Tu-DD/Capstone-Project.git
-    cd Capstone-Project/EGM_RobotStudio/PythonApplication1
+    cd Capstone-Project/Project_Robot/PythonApplication1
     ```
   ### Cài đặt thư viện:
 
