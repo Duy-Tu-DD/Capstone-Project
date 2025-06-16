@@ -9,37 +9,37 @@
     - Giám sát trạng thái robot thời gian thực
 
 ## 🧠 Tính năng chính
-  ### 1. Điều khiển EGM
-    - Kết nối với robot qua UDP
-    - Điều chỉnh vị trí (X, Y, Z) và góc quay (RX, RY, RZ)
-    - Hiển thị phản hồi từ robot
-    - Nút giữ để điều chỉnh liên tục
+### 1. Điều khiển EGM
+- Kết nối với robot qua UDP
+- Điều chỉnh vị trí (X, Y, Z) và góc quay (RX, RY, RZ)
+- Hiển thị phản hồi từ robot
+- Nút giữ để điều chỉnh liên tục
 
-    ### Quản lý qua RWS
-    - Kết nối an toàn với controller
-    - Quản lý chế độ vận hành (Auto/Manual)
-    - Điều khiển trạng thái động cơ
-    - Quản lý chương trình RAPID
-    - Điều chỉnh tốc độ robot (0-100%)
+### 2. Quản lý qua RWS
+- Kết nối an toàn với controller
+- Quản lý chế độ vận hành (Auto/Manual)
+- Điều khiển trạng thái động cơ
+- Quản lý chương trình RAPID
+- Điều chỉnh tốc độ robot (0-100%)
 
-    ### Điều khiển bằng cử chỉ tay
-    - Nhận diện bàn tay với MediaPipe
-    - 3 chế độ điều khiển:
+### 3. Điều khiển bằng cử chỉ tay
+- Nhận diện bàn tay với MediaPipe
+- 3 chế độ điều khiển:
     - **Hand Mode**: Điều khiển kẹp (gripper)
     - **Position Mode**: Điều chỉnh vị trí
     - **Rotation Mode**: Điều chỉnh góc quay
-    - Tương tác trực quan qua giao diện camera
+- Tương tác trực quan qua giao diện camera
 
-    ### Hệ thống giám sát
-    - Hiển thị trạng thái EGM
-    - Giám sát trạng thái RAPID
-    - Ghi nhật ký hệ thống
-    - Hiển thị thông tin controller
+### 4. Hệ thống giám sát
+- Hiển thị trạng thái EGM
+- Giám sát trạng thái RAPID
+- Ghi nhật ký hệ thống
+- Hiển thị thông tin controller
 
 ## 💻 Yêu cầu hệ thống
-    - Python 3.7+
-    - Hệ điều hành: Windows
-    - Camera (để sử dụng tính năng điều khiển bằng tay)
+- Python 3.7+
+- Hệ điều hành: Windows
+- Camera (để sử dụng tính năng điều khiển bằng tay)
 
 ## 🔧 Cài đặt
 
