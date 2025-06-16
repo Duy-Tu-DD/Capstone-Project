@@ -1,0 +1,59 @@
+MODULE EGMCommunication
+    VAR egmident egm_id;
+    VAR egmstate egm_state;
+    PERS robtarget pHome:=[[500.0,0.0,600.0],[0.0,0.0,1.0,0.0],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    ! Ngưỡng hội tụ 
+    CONST egm_minmax egm_minmax_translation := [-1, 1];
+    CONST egm_minmax egm_minmax_rotation := [-1, 1];
+    ! Khung hiệu chỉnh và cảm biến
+    LOCAL CONST pose egm_correction_frame := [[0, 0, 0], [1, 0, 0, 0]];
+    LOCAL CONST pose egm_sensor_frame := [[0, 0, 0], [1, 0, 0, 0]];
+
+    PROC main()
+        MoveJ pHome,v100,fine,tool0;
+        EGM_POSE_MOVEMENT;
+    ENDPROC
+
+    PROC EGM_POSE_MOVEMENT()
+        !Kiểm tra có thiết lập EGM nào đang hoạt động không
+        IF egm_state = EGM_STATE_DISCONNECTED THEN
+            TPWrite "EGM State: Preparing controller for EGM communication.";
+        ENDIF
+        
+        WHILE TRUE DO
+        ! Đăng ký ID EGM mới
+        EGMGetId egm_id;      
+        ! Nhận trạng thái hiện tại của chu trình EGM
+        egm_state := EGMGetState(egm_id);
+        !Thiết lập giao tiếp EGM
+        IF egm_state <= EGM_STATE_CONNECTED THEN
+            TPWrite "EGM State: Setting up communication.";
+            EGMSetupUC ROB_1, egm_id, "default", "UCdevice", \Pose;
+        ENDIF
+        !Giải mã gói tin từ thiết bị bên ngoài
+        EGMActPose egm_id\Tool:=tool0,
+                   egm_correction_frame,
+                   EGM_FRAME_BASE,
+                   egm_sensor_frame,
+                   EGM_FRAME_BASE
+                   \x:=egm_minmax_translation
+                   \y:=egm_minmax_translation
+                   \z:=egm_minmax_translation
+                   \rx:=egm_minmax_rotation
+                   \ry:=egm_minmax_rotation
+                   \rz:=egm_minmax_rotation
+                   \LpFilter:=16
+                   \MaxSpeedDeviation:=30;
+        
+            ! Thực hiện chuyển động dựa trên mục tiêu tư thế được thiết bị bên ngoài gửi đến
+            EGMRunPose egm_id, EGM_STOP_HOLD \x \y \z \Rx \Ry \Rz \CondTime:=1 \RampInTime:=0;
+            WaitTime 0.004;  ! Tần số cập nhật 250Hz
+        ENDWHILE
+
+        ERROR
+        IF ERRNO = ERR_UDPUC_COMM THEN
+            TPWrite "EGM Error: External device not detected.";
+            TRYNEXT;
+        ENDIF
+    ENDPROC        
+ENDMODULE

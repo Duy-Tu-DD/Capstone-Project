@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemProperties>
+  <SystemName>CRB15000_5_95</SystemName>
+  <SerialNo>VIRTUAL_CONTROLLER</SerialNo>
+  <UsedMedia>
+    <Media path="C:/Users/2002d/AppData/Local/ABB/RobotWare/RobotOS_16.0.0" name="RobotOS" version="16.0.0+231" versionName="16.0.0"/>
+    <Media path="C:/Users/2002d/AppData/Local/ABB/RobotWare/RobotControl_7.18.1" name="RobotControl" version="7.18.1+696" versionName="7.18.1"/>
+    <Media path="C:/Users/2002d/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1" name="FlexPendantSoftwareUpdate" version="1.19.1+1678" versionName="1.19.1"/>
+    <Media path="C:/Users/2002d/AppData/Local/ABB/RobotWare/Robots_1.18.1" name="Robots" version="1.18.1+44" versionName="1.18.1"/>
+    <Media path="C:/Users/2002d/AppData/Local/ABB/RobotWare/Wizard_1.7.0" name="Wizard" version="1.7.0" versionName="1.7.0"/>
+  </UsedMedia>
+  <ControlModule>
+    <Option descr="RobotControl Base"/>
+    <Option descr="English"/>
+    <Option descr="UDPUC Driver"/>
+    <Option descr="3120-1 FlexPendant Limited App Package"/>
+    <Option descr="3120-2 FlexPendant Essential App Package"/>
+    <Option descr="3151-1 FlexPendant Program Package"/>
+    <Option descr="3124-1 Externally Guided Motion (EGM)"/>
+    <Option descr="3043-3 SafeMove Collaborative"/>
+    <Option descr="Safe Move Plug and Play"/>
+    <Option descr="3044-2 Keyless Mode Switch, 2 modes"/>
+    <Option descr="Leadthrough"/>
+    <Option descr="No Category 0"/>
+  </ControlModule>
+  <DriveModule>
+    <Name>Robot1</Name>
+    <Option descr="C30"/>
+    <Option descr="C30 Type A"/>
+    <Option descr="System without axis computer"/>
+    <Option descr="Main computer M28.01"/>
+    <Option descr="D7 (for CRB 15000)"/>
+    <Option descr="Motor Commutation"/>
+    <Option descr="Service Info System"/>
+  </DriveModule>
+  <AdditionalOption>
+    <Name>FlexPendantSoftwareUpdate</Name>
+    <Option descr="FlexPendant App Package"/>
+  </AdditionalOption>
+  <AdditionalOption>
+    <Name>Robots</Name>
+    <Option descr="Robots Base"/>
+    <Option descr="CRB 15000-5/0.95"/>
+  </AdditionalOption>
+  <AdditionalOption>
+    <Name>Wizard</Name>
+    <Option descr="Wizard"/>
+  </AdditionalOption>
+</SystemProperties>

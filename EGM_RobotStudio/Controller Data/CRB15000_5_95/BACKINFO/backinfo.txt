@@ -1,0 +1,57 @@
+>>SYSTEM_ID:
+VIRTUAL_CONTROLLER
+
+>>PRODUCTS_ID:
+RobotOS Version: 16.0.0
+RobotControl Version: 7.18.1
+FlexPendantSoftwareUpdate Version: 1.19.1
+Robots Version: 1.18.1
+Wizard Version: 1.7.0
+
+  RobotControl Base
+  English
+  UDPUC Driver
+  3120-1 FlexPendant Limited App Package
+  3120-2 FlexPendant Essential App Package
+  3151-1 FlexPendant Program Package
+  3124-1 Externally Guided Motion (EGM)
+  3043-3 SafeMove Collaborative
+  Safe Move Plug and Play
+  3044-2 Keyless Mode Switch, 2 modes
+  Leadthrough
+  No Category 0
+  C30
+  C30 Type A
+  System without axis computer
+  Main computer M28.01
+  D7 (for CRB 15000)
+  Motor Commutation
+  Service Info System
+  FlexPendant App Package
+  Robots Base
+  CRB 15000-5/0.95
+  Wizard
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+SIO.cfg
+PROC.cfg
+MMC.cfg
+MOC.cfg
+EIO.cfg
+
+
+
+>>TASK2: (T_ROB1,,)
+SYSMOD/GOFA_ASI_Procedures.sysx @ 
+PROGMOD/EGMCommunication.modx @ 
+SYSMOD/Wizard_Params.sysx @ 
+
+>>TASK3: (T_GOFA_LED,,)
+SYSMOD/GOFA_Main.sysx @ 
+
+
+>>EOF:
