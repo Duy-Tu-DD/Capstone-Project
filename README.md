@@ -1,7 +1,7 @@
 # Capstone-Project
 Phát triển hệ thống tương tác người-máy cho Robot ABB CRB15000
 ## 📌 Giới thiệu
-Dự án Capstone này tập trung vào phát triển **hệ thống tương tác người-máy cho robot ABB CRB15000** sử dụng giao thức **EGM (Externally Guided Motion)**, **RWS(Robot Web Services)** và **Xử lý ảnh** tích hợp với **Robot Studio**. Hệ thống mang đến giải pháp điều khiển robot tiên tiến với các tính năng nổi bật:
+Dự án Capstone này tập trung vào phát triển **hệ thống tương tác người-máy cho robot ABB CRB15000** sử dụng giao thức **EGM (Externally Guided Motion)**, **RWS (Robot Web Services)** và **Xử lý ảnh** tích hợp với **Robot Studio**. Hệ thống mang đến giải pháp điều khiển robot tiên tiến với các tính năng nổi bật:
 
 - Điều khiển vị trí và hướng robot thời gian thực  
 - Tích hợp mô phỏng Robot Studio  
