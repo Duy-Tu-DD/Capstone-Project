@@ -17,34 +17,34 @@ Dự án Capstone này tập trung vào phát triển **hệ thống tương tá
 
 ## 🧠 Tính năng chính
   ### 1. Điều khiển EGM
-    - Giao tiếp robot ABB CRB15000 qua giao thức UDP  
-    - Điều khiển vị trí: **X, Y, Z** và góc quay: **RX, RY, RZ**  
-    - Hiển thị phản hồi vị trí thời gian thực  
-    - Hỗ trợ mô phỏng và robot thực  
+  - Giao tiếp robot ABB CRB15000 qua giao thức UDP  
+  - Điều khiển vị trí: **X, Y, Z** và góc quay: **RX, RY, RZ**  
+  - Hiển thị phản hồi vị trí thời gian thực  
+  - Hỗ trợ mô phỏng và robot thực  
 
   ### 2. Tích hợp Robot Studio
-    - Chế độ vận hành: Auto / Manual  
-    - Điều khiển động cơ: ON / OFF  
-    - Quản lý chương trình RAPID: Run / Stop / Reset  
-    - Tùy chỉnh tốc độ robot: 0–100%  
+  - Chế độ vận hành: Auto / Manual  
+  - Điều khiển động cơ: ON / OFF  
+  - Quản lý chương trình RAPID: Run / Stop / Reset  
+  - Tùy chỉnh tốc độ robot: 0–100%  
 
   ### 3. Điều khiển bằng cử chỉ tay
-    - Sử dụng thư viện **MediaPipe** để nhận dạng bàn tay  
-    - 3 chế độ điều khiển:
-      - **Hand Mode:** Đóng/Mở kẹp
-      - **Position Mode:** Điều chỉnh vị trí  
-      - **Rotation Mode:** Điều chỉnh góc quay  
-    - Tương tác qua webcam  
+  - Sử dụng thư viện **MediaPipe** để nhận dạng bàn tay  
+  - 3 chế độ điều khiển:
+    - **Hand Mode:** Đóng/Mở kẹp
+    - **Position Mode:** Điều chỉnh vị trí  
+    - **Rotation Mode:** Điều chỉnh góc quay  
+  - Tương tác qua webcam  
 
   ###  4. Giao diện người dùng (UI)
 
-    - Xây dựng với **PyQt5**  
-    - Giao diện chia thành 3 panel:
-      - **EGM Control**
-      - **Camera Control**
-      - **RWS Control**  
-    - Hỗ trợ nút giữ để điều chỉnh liên tục  
-    - Hệ thống ghi nhật ký hoạt động  
+  - Xây dựng với **PyQt5**  
+  - Giao diện chia thành 3 panel:
+    - **EGM Control**
+    - **Camera Control**
+    - **RWS Control**  
+  - Hỗ trợ nút giữ để điều chỉnh liên tục  
+  - Hệ thống ghi nhật ký hoạt động  
 ---
 
 ## 💻 Yêu cầu hệ thống
