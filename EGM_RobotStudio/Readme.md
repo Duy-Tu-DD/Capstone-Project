@@ -21,7 +21,7 @@ Thư mục này chứa project mô phỏng giao tiếp EGM giữa robot ABB CRB1
 - Hệ điều hành: Windows
 
 # Tác giả
-Đỗ Đăng Duy Tú - 105200391 - 20TDHCLC1 
-Quách Thiện Đức - 105200358 - 20TDHCLC1
-Nguyễn Hữu Nam Thành - 105200386 - 20TDHCLC1
+  Đỗ Đăng Duy Tú - 105200391 - 20TDHCLC1 
+  Quách Thiện Đức - 105200358 - 20TDHCLC1
+  Nguyễn Hữu Nam Thành - 105200386 - 20TDHCLC1
 
