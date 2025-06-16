@@ -19,7 +19,7 @@ Capstone-Project/
 │   └── README.md 
 ├── Project_Robot/                    
 │   ├── PythonApplication1/
-    │   ├── egm_pb2.py                # Protobuf definitions
+│   │   ├── egm_pb2.py                # Protobuf definitions
 │   │   ├── Project_Robot.py          # Ứng dụng chính
 │   │   └── ...                       # Các file hỗ trợ
 │   ├── Project_Robot.sln        
